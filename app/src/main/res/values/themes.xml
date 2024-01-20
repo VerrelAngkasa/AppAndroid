@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.AppAndroid" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/hijauterang</item>
     </style>
 
     <style name="Theme.AppAndroid" parent="Base.Theme.AppAndroid" />
