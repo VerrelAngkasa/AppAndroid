@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        android:background="@color/body"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="594dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/hijauheader"
+                android:textColor="@color/white"
+                android:text="ProDuktiv"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="279dp"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/header" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/profil"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal"
+            android:layout_margin="7pt"
+            android:background="@color/kotakcoklat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" >
+
+            <LinearLayout
+                android:layout_width="262dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="263dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5pt"
+                    android:layout_marginLeft="5pt"
+                    android:text="Profil"
+                    android:textSize="@dimen/fntBesar" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="262dp"
+                    android:layout_marginLeft="5pt"
+                    android:layout_height="wrap_content"
+                    android:text="Perbaharuan foto, nama, dan informasi lainnya" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/user" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/todo"
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:orientation="horizontal"
+            android:layout_margin="7pt"
+            android:background="@color/kotakcoklat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5pt"
+                    android:layout_marginLeft="5pt"
+                    android:text="ToDo List"
+                    android:textSize="@dimen/fntBesar" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5pt"
+                    android:text="Tulis jadwal rencana kegiatan anda" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/menu1" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
